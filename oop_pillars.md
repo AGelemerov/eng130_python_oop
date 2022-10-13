@@ -10,7 +10,7 @@ Also means what it reads as in objects inherit attributes and methods from other
 necessarily faster or with wide tyres). Each brand still makes cars, but each brand introduces different attributes to
 their own/customer needs)
 
-### Abstraction
+### Abstraction~~~~
 
 Abstraction is basically generalisation, meaning implementing something and then generalising it enough for it to be
 used by something different and somewhat related.
