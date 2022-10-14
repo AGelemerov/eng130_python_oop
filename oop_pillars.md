@@ -37,7 +37,7 @@ amount of functionality
     - When a name denotes instances of many classes
       related by some common superclass.
 
-![]()
+![](images/inheritance%20diagram.png)
 1. create animal.py as a parent
 2. create reptile.py as a child to inherit - abstract etc.
 3. create snake.py and inherit from
