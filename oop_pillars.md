@@ -37,8 +37,50 @@ amount of functionality
     - When a name denotes instances of many classes
       related by some common superclass.
 
-![](images/inheritance%20diagram.png)
+## Inheritance example
+
 1. create animal.py as a parent
 2. create reptile.py as a child to inherit - abstract etc.
 3. create snake.py and inherit from
 4. create python_.py
+
+![](images/inheritance%20diagram.png)
+
+## How to declare a class
+
+### Syntax
+
+```python
+class Name:
+    def __init__(self):
+        print()
+
+    def more(self):
+        pass
+```
+
+## How to inherit from a class
+
+### Syntax
+
+```python
+from filename import WantedClass
+
+
+class Name(WantedClass):
+    def __init__(self):
+        print()
+
+    def more(self):
+        pass
+```
+
+## How to instantiate and object of a class
+
+### Syntax
+
+```python
+object_of_class = Class()
+
+object_of_class.methods_in_class()
+```
