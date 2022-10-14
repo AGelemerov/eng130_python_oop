@@ -10,7 +10,7 @@ Also means what it reads as in objects inherit attributes and methods from other
 necessarily faster or with wide tyres). Each brand still makes cars, but each brand introduces different attributes to
 their own/customer needs)
 
-### Abstraction~~~~
+### Abstraction
 
 Abstraction is basically generalisation, meaning implementing something and then generalising it enough for it to be
 used by something different and somewhat related.
@@ -37,3 +37,8 @@ amount of functionality
     - When a name denotes instances of many classes
       related by some common superclass.
 
+![]()
+1. create animal.py as a parent
+2. create reptile.py as a child to inherit - abstract etc.
+3. create snake.py and inherit from
+4. create python_.py
