@@ -25,3 +25,45 @@ while limit < 5:
 # "and", "or", "not"
 # no: &&, ||, &, |
 
+# 4.
+
+# dictionary declaration syntax
+dictionary = {
+    "name": "Angel",
+    "last_name": "Gelemerov",
+    "age": 21,
+    "DOB": "08/11/2000",
+    "test": True
+}
+
+# list syntax
+listings = [1, 2, 3, 4, 5]
+
+# tuple syntax
+tuples = (1, 2, 3, 4, 5)
+
+# indexing always starts at 0 for any data structure in python
+
+# print 3rd and 5th item from list
+for i in range(5):
+    if i == 2:
+        print(i)
+    elif i == 4:
+        print(i)
+
+# print 3rd and 5th item from tuple
+for i in range(5):
+    if i == 2:
+        print(i)
+    elif i == 4:
+        print(i)
+
+# print 3rd and 5th item from dictionary
+counter = 0
+for x, y in dictionary.items():
+    counter += 1
+    if counter == 3:
+        print(x, y)
+    elif counter == 5:
+        print(x, y)
+
