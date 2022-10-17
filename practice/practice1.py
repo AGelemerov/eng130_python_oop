@@ -1,5 +1,6 @@
 # 1.
 
+
 # correct syntax for defining a function
 def function():
     pass
@@ -66,4 +67,16 @@ for x, y in dictionary.items():
         print(x, y)
     elif counter == 5:
         print(x, y)
+
+# lists and dictionaries are mutable (changeable), tuples are not
+# lists or dicts within a tuple are immutable
+
+from inheritance_ex.snake import Snake
+
+
+# create a class and instances
+class Testing(Snake):
+    def __init__(self):
+        super().__init__()
+        self.new_var = "test"
 
