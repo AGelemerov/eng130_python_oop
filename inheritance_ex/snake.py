@@ -1,4 +1,4 @@
-from reptile import Reptile
+from inheritance_ex.reptile import Reptile
 
 
 class Snake(Reptile):

@@ -1,13 +1,13 @@
+from inheritance_ex.snake import Snake
+
+
 # 1.
-
-
 # correct syntax for defining a function
 def function():
     pass
 
 
 # 2.
-
 list_items = [1, 2, 3, 4, 5]
 
 for i in list_items:
@@ -68,15 +68,50 @@ for x, y in dictionary.items():
     elif counter == 5:
         print(x, y)
 
+
 # lists and dictionaries are mutable (changeable), tuples are not
 # lists or dicts within a tuple are immutable
-
-from inheritance_ex.snake import Snake
 
 
 # create a class and instances
 class Testing(Snake):
     def __init__(self):
         super().__init__()
-        self.new_var = "test"
+        self.new_var = "test new_var"
 
+
+test1 = Testing()
+print(test1.new_var)
+
+# adding item to list, tuple and dict
+
+listings.append(8)
+# we cannot ammend tuples, no addition method
+dictionary.update({"Testing": 9})
+
+print(listings)
+print(dictionary.items())
+
+# shopping items
+
+shopping_items = {
+    "eggs": 1.85,
+    "bread": 1.50,
+    "peppers": 0.90
+}
+
+
+def food_bill():
+    total_bill = 0
+    print(shopping_items.values())
+    for item in shopping_items.values():
+        total_bill += item
+
+    print(total_bill)
+    for item, cost in shopping_items.items():
+        print(item, cost)
+
+    return total_bill
+
+
+print(food_bill())

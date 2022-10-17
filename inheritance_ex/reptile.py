@@ -1,7 +1,7 @@
 # create a class called Reptile
 # how do we make the Animal class a parent class - how do we inherit from Animal class
 
-from animal import Animal  # importing everything from Animal class
+from inheritance_ex.animal import Animal  # importing everything from Animal class
 
 
 class Reptile(Animal):  # Inheriting from Animal class
