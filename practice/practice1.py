@@ -18,3 +18,10 @@ limit = 0
 while limit < 5:
     print(list_items[limit])
     limit += 1
+
+# 3.
+
+# Correct syntax for boolean operators:
+# "and", "or", "not"
+# no: &&, ||, &, |
+
